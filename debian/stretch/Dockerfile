@@ -22,7 +22,7 @@ RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
 	&& make dep \
 	&& make \
 	&& cp pjsip-apps/bin/pjsua-*gnu /usr/bin/pjsua \
-	&& apt-get purge --force-yes build-essential \
+	&& apt-get purge --force-yes -y build-essential \
 	&& rm -rf /var/lib/apt/lists/* \
 
 COPY . /opt/
