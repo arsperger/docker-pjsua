@@ -1,3 +1,6 @@
+![Docker build](https://img.shields.io/docker/automated/arsperger/docker-pjsua)
+
+
 ### PJSUA CLI - docker edition
 
 UPDATE: PJSUA Version = *2.10*
